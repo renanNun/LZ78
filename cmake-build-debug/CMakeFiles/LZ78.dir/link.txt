@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\LZ78.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\LZ78.dir/objects.a @CMakeFiles\LZ78.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\LZ78.dir/objects.a -Wl,--no-whole-archive  -o LZ78.exe -Wl,--out-implib,libLZ78.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LZ78.dir\linklibs.rsp

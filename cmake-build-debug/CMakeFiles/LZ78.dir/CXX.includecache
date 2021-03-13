@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Renan/CLionProjects/LZ78/LZ78.h
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+string
+-
+map
+-
+vector
+-
+bitset
+-
+
+C:/Users/Renan/CLionProjects/LZ78/main.cpp
+iostream
+-
+LZ78.h
+C:/Users/Renan/CLionProjects/LZ78/LZ78.h
+
