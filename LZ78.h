@@ -1,10 +1,15 @@
-//
-// Created by Renan on 13/03/2021.
-//
+/**
+* Universidade Federal de Juiz de Fora
+* Algoritmo LZ78
+* @data: 13/03/2021
+* @autor: Renan
+* @version: 1.0
+**/
 
 #ifndef LZ78_LZ78_H
 #define LZ78_LZ78_H
 
+//Incluindo Bibliotecas a serem utilizadas no programa
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -18,8 +23,8 @@ using namespace std;
 
 class LZ78 {
 public:
-    LZ78();
-    virtual ~LZ78();
+    LZ78(); //Construtor
+    virtual ~LZ78(); //Destrutor
 
     static void compressao(const string& inputCompress, const string& outputFile);
     static void descompressao(const string& fileToDecompress,const string& outputFile);

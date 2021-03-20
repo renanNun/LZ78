@@ -1,1 +1,2 @@
-Olá, esse é um tesde do arquivo de Compressã
+Olá, 
+Este é um teste da atividade de compressão da disciplina Estrutura de Dados 2 - UFJF
