@@ -4,6 +4,10 @@
 * @data: 13/03/2021
 * @autor: Renan
 * @version: 1.0
+* Comando Para rodar:
+* LINUX: g++ *.cpp -o main && ./main
+* WINDOWS: g++ *.cpp -o main && main.exe
+* MAC: g++ *.cpp -o main && ./main
 **/
 
 #ifndef LZ78_LZ78_H
